@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MadMax | Спартак Москва 1922</title>
+    <style>
+        :root {
+            --spartak-red: #E30613;
+            --spartak-white: #FFFFFF;
+            --dark-bg: #1a1a1a;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: var(--dark-bg);
+            color: var(--spartak-white);
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        header {
+            background-color: var(--spartak-red);
+            padding: 20px;
+            text-align: center;
+            border-bottom: 5px solid var(--spartak-white);
+            box-shadow: 0 4px 15px rgba(0,0,0,0.5);
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.6);
+        }
+
+        main {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 4px;
+            text-align: center;
+        }
+
+        .profile-card {
+            background: rgba(255, 255, 255, 0.05);
+            padding: 40px;
+            border-radius: 15px;
+            border: 2px solid var(--spartak-red);
+            backdrop-filter: blur(5px);
+            max-width: 500px;
+            box-shadow: 0 10px 30px rgba(227, 6, 19, 0.1);
+        }
+
+        .avatar-placeholder {
+            width: 120px;
+            height: 120px;
+            background-color: var(--spartak-red);
+            border: 4px solid var(--spartak-white);
+            border-radius: 50%;
+            margin: 0 auto 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 3rem;
+            font-weight: bold;
+        }
+
+        h2 {
+            color: var(--spartak-white);
+            font-size: 2.2rem;
+            margin: 10px 0;
+        }
+
+        p {
+            color: #cccccc;
+            font-size: 1.1rem;
+            line-height: 1.6;
+        }
+
+        .tag {
+            display: inline-block;
+            background-color: var(--spartak-red);
+            color: var(--spartak-white);
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-weight: bold;
+            font-size: 0.9rem;
+            margin-top: 15px;
+            text-transform: uppercase;
+        }
+
+        footer {
+            background-color: #111111;
+            text-align: center;
+            padding: 15px;
+            font-size: 0.9rem;
+            color: #777777;
+            border-top: 1px solid #222222;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Один за всех и все за одного!</h1>
+    </header>
+
+    <main>
+        <div class="profile-card">
+            <div class="avatar-placeholder">M</div>
+            <h2>Привет, я MadMax</h2>
+            <p>Добро пожаловать на мой личный сайт, посвященный великому и могучему клубу «Спартак» Москва. Здесь зарождается история красно-белых в цифровом пространстве GitHub Pages!</p>
+            <span class="tag">Спартак 1922</span>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 spartak1922.github.io | Создано MadMax</p>
+    </footer>
+
+</body>
+</html>
